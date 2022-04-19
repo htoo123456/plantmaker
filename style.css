@@ -20,6 +20,7 @@
 }
 
 html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
@@ -701,7 +702,7 @@ i {
   }
 
   .contact-child {
-    width: 90%;
+    width: 80%;
   }
 
   .contact-container input {
