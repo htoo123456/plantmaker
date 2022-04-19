@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- nav bar -->
+    <nav>
+      <div class="nav-container" data-aos = "fade-down">
+        <div class="logo-container">
+          <div class="circle-image">
+            <img src="images/plant-logo.png" alt="" class="nav-logo" />
+          </div>
+          <span>Plant Maker</span>
+        </div>
+        <div class="nav-list">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="">FAQs</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="hamburgerMenu">
+            <div class="first line"></div>
+            <div class="second line"></div>
+            <div class="third line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-list-on">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#service">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="">FAQs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- header -->
+
+    <header>
+      <div class="header-container" id="home">
+        <div class="imageContainer" data-aos="fade-right" data-aos-delay = "200">
+          <img src="images/undraw_environment_iaus.svg" alt="" />
+        </div>
+        <div class="quote-container" data-aos="fade-left" data-aos-delay="500">
+          <img src="images/quote.svg" alt="" />
+          <div class="quote">
+            <span
+              >The less we do to address climate change now, the more regulation
+              we will have in the future.</span
+            >
+          </div>
+          <div class="writer">
+            <span>By Greatafdjjfdk</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- sections -->
+
+    <main>
+
+      <!-- service section -->
+
+      <section class="service-section" id = "service">
+        <div class="service-container">
+          <div class="service-header">
+             <span>Services</span>
+            <div class="divider"></div>
+          </div>
+          <div class="service-main">
+            <div class="service">
+              <div class="circle-image">
+                <img src="images/plant.png" alt="">
+              </div>
+              <p>Water plants regularly</p>
+            </div>
+            <div class="service">
+              <div class="circle-image">
+                <img src="images/plant (1).png" alt="">
+              </div>
+              <p>Check the soil moisture.</p>
+            </div>
+            <div class="service">
+              <div class="circle-image">
+                <img src="images/water.png" alt="">
+              </div>
+              <p>Pour water at room temperature</p>
+            </div>
+            <div class="service">
+              <div class="circle-image">
+                <img src="images/sun.png" alt="">
+              </div>
+              <p>Give some sunlight or artificial light to plants</p>
+            </div>
+            <div class="service">
+              <div class="circle-image">
+                <img src="images/humidifier.png" alt="">
+              </div>
+              <p>Use humidifier to maintain surroundings</p>
+            </div>
+            <div class="service">
+              <div class="circle-image">
+                <img src="images/fertilizer.png" alt="">
+              </div>
+              <p>Add fertilizers to the pot to provide nutrients to plant</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about section -->
+
+      <section class="about-section" id="about">
+        <div class="about-container" >
+          <div class="about-header" >
+            <span>Who we are</span>
+            <div class="divider"></div>
+          </div>
+          <div class="sliderContainer">
+            <img
+              src="images/left-arrow.png"
+              alt=""
+              class="prevArrow arrow is-hidden"
+            />
+            <div class="trackContainer">
+              <ul class="track">
+                <li class="slider image1 currentSlide">
+                  <img src="images/asian-man.jpg" class="image" />
+                  <p>
+                    Our team has been trying to normalize the climate. As everyone knows, the weather is getting hotter and hotter.
+                  </p>
+                </li>
+                <li class="slider image2">
+                  <img src="images/business-woman.jpg" alt="" class="image" />
+                  <p>
+                    “May the joy that you have spread in the past come back to
+                    you on this day. Wishing you a very happy birthday!”
+                  </p>
+                </li>
+                <li class="slider image3">
+                  <img src="images/business-woman-2.jpg" alt="" class="image" />
+                  <p>
+                    “I wish you all the best in the future. I hope you can
+                    overcome all the obstacles.”
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <img src="images/right-arrow.png" alt="" class="nextArrow arrow" />
+            <div class="indicatorParent">
+              <button class="indicator currentDot"></button>
+              <button class="indicator"></button>
+              <button class="indicator"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+
+      <section class="contact-section"  id = "contact">
+        <div class="contact-header">
+          <h1>Get in touch with us</h1>
+        <div class="divider"></div>
+        <div class="contact-container">
+          <div class="form contact-child">
+            <h4>Contact us</h4>
+            <form action="">
+              <div class="userInput">
+                <input type="text" name="" id="user">
+                <label for="#user">Name</label>
+              </div>
+              <div class="emailInput">
+                <input type="text" name="" id="emial">
+                <label for="#email">Email</label>
+              </div>
+              <div class="phoneNumberInput">
+                <input type="text" name="" id="phoneNumber">
+                <label for="#phoneNumber">Phone Number</label>
+              </div>
+              <button class="submit">Submit</button>
+            </form>
+          </div>
+          <div class="getInTouch contact-child">
+            <div class="icons-contact-container"> 
+              <div class="address-container icons-contact">
+                <div class="address">
+                  <i class="fa-solid fa-home"></i>
+                  <span>Address</span>
+                </div>
+                <p>No.30, Pyay Road, Sat That Thaw Village, Hmawbi Township, Yangon</p>
+              </div>
+              <div class="facebook-container icons-contact">
+                <div class="facebook">
+                  <i class="fab fa-facebook"></i>
+                  <span>Facebook</span>
+                </div>
+                <p><a href="https://www.facebook.com/D.yecprivateschool/" target="__blank">D.YEC Facebook Page</a></p>
+              </div>
+              <div class="phoneNo-container icons-contact">
+                <div class="phoneNo">
+                  <i class="fa-solid fa-phone"></i>
+                  <span>Phone</span>
+                </div>
+                <a href="tel:09750127676">(95+) 9 750 127 676</a>
+              </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3813.4818430868318!2d96.08709041308016!3d17.09797981559178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c19904c6900697%3A0x1bd81a401c18b894!2sD.YEC%20Private%20School!5e0!3m2!1sen!2smm!4v1648617133323!5m2!1sen!2smm" width="450" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map-iframe"></iframe>
+          </div>
+          </div>    
+        </div>  
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+
+    <footer>
+      <div class="footer-container">
+        <p id="p">All rights served. &copy; Plant Maker.Inc.</p>
+        <div class="footer-links">
+          <a href="https://www.facebook.com/D.yecprivateschool/" target="__blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.facebook.com/D.yecprivateschool/" target="__blank"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.facebook.com/D.yecprivateschool/" target="__blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="jquery.js"></script>
+    <script src="waypoint/waypointchild/lib/jquery.waypoints.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
